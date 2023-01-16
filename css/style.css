@@ -241,8 +241,107 @@ br.clear {
     font-size: 60px;
     margin-top: 140px;
     margin-bottom: 40px;
+    width: 100%;
 }
 #social ul li img{
     margin-bottom: 150px;
     margin-top: 30px;
+}
+#social ul li img.face{
+    width: 150px;
+}
+#social ul li img.igram{
+    width: 160px;
+}
+#social ul li img.wassup{
+    width: 150px;
+}
+@media all and (max-width:1040px){
+    #main header section.right{
+        display: none;
+    }
+    #main header section.left{
+        margin-left: 20%;
+    }
+}
+@media all and (max-width:950px){
+    #middle ul li.card {
+        width: 78%;
+        margin-bottom: 80px;
+        margin-left: 90px;
+    }
+}
+@media all and (max-width:880px){
+    #social ul li{
+        margin-right: 50px;
+    }
+    #social ul li:last-child{
+        margin-right: 0px;
+    }
+    #social ul{
+        margin: 0 80px;
+    }
+}
+@media all and (max-width:730px){
+    #social ul{
+        margin: 0;
+    }
+    #social ul li img.face{
+        width: 130px;
+    }
+    #social ul li img.igram{
+        width: 140px;
+    }
+    #social ul li img.wassup{
+        width: 130px;
+    }
+    #middle ul li.card {
+        width: 90%;
+        margin-bottom: 80px;
+        margin-left: 40px;
+        margin-right: 40px;
+    }
+}
+@media all and (max-width:560px){
+    #social ul li img.face{
+        width: 130px;
+    }
+    #social ul li img.igram{
+        width: 140px;
+    }
+    #social ul li img.wassup{
+        width: 130px;
+    }
+    #middle ul li.card {
+        width: 90%;
+        margin-bottom: 80px;
+        margin-left: 40px;
+    }
+}
+@media all and (max-width:500px){
+    #middle ul li.card {
+        width: 100%;
+        margin-bottom: 80px;
+        margin-left: 60px;
+    }
+}
+@media all and (max-width:450px){
+    #middle.wrapper{
+        width: 100%;
+    }
+    #middle ul li.card {
+        width: 100%;
+        margin-bottom: 80px;
+        margin-left: 100px;
+    }
+    #middle ul li.card {
+        width: 90%;
+        margin-bottom: 80px;
+        margin-left: 80px;
+    }
+}
+@media all and (max-width:420px){
+    #social h2{
+        width: 100%;
+    }
 }
