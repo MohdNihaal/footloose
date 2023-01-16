@@ -1,0 +1,248 @@
+* {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	vertical-align: baseline;
+	background: transparent;
+	font-weight: normal;
+	text-decoration: none;
+	outline: none;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+ol, ul {
+	list-style: none;
+}
+del {
+	text-decoration: line-through;
+}
+body {
+	font-family: "GT-Eesti", Arial, Helvetica, sans-serif;
+	font-size: 17px;
+	overflow-x: hidden;
+	min-width: 320px;
+	font-weight: 500;
+}
+input,textarea,select{
+	font-family: "GT-Eesti", Arial, Helvetica, sans-serif;
+	font-weight: 500;
+}
+
+a{
+	color: #253858;
+}
+a:hover,.submit:hover{
+	filter: alpha(opacity = 85);
+	-moz-opacity: 0.85;
+	-khtml-opacity: 0.85;
+	opacity: 0.85;
+}
+.thumb{
+	display: block;
+}
+.thumb img{
+	display: block;
+	width:100%;
+}
+p{
+	line-height:1.6em;
+	font-size: 16px;
+	font-family: "GT-Eesti", Arial;
+	font-weight: 500;
+}
+.hidden{
+	display:none;
+}
+br.clear {
+	clear: both;
+	line-height: 0;
+}
+.wrapper {
+	width: 90%;
+	margin: 0 auto;
+	max-width:1200px;
+}
+@font-face {
+    font-family: "rowdies_bold";
+    src: url("../fonts/Rowdies-Bold.ttf") format("woff");
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: "rowdies_light";
+    src: url("../fonts/Rowdies-Light.ttf") format("woff");
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: "rowdies_regular";
+    src: url("../fonts/Rowdies-Regular.ttf") format("woff");
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: "baloopaaji";
+    src: url("../fonts/baloopaaji2-regular-webfont.woff2") format("woff2"),
+        url("../fonts/baloopaaji2-regular-webfont.woff") format("woff");
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: "baloopaaji_bold";
+    src: url("../fonts/BalooPaaji2-Bold.ttf") format("woff2");
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: "baloopaaji_extra_bold";
+    src: url("../fonts/BalooPaaji2-ExtraBold.ttf") format("woff2");
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: "baloopaaji_semi_bold";
+    src: url("../fonts/BalooPaaji2-SemiBold.ttf") format("woff2");
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: "baloopaaji_meduim";
+    src: url("../fonts/BalooPaaji2-Medium.ttf") format("woff2");
+    font-weight: normal;
+    font-style: normal;
+}
+#main{
+    background-image: linear-gradient(to top, #fff, #AAFF00);
+}
+#main header{
+    background: #000;
+}
+#main header section.wrapper{
+    display: flex;
+    justify-content: space-between;
+}
+#main header section.left{
+    padding-top: 20px;
+    display: flex;
+    padding-bottom: 20px;
+}
+#main header section.left img{
+    width: 200px;
+    border-radius: 20%;
+}
+#main header section.left h3{
+    color: white;
+    font-family: "baloopaaji_bold";
+    font-size: 50px;
+    margin-left: 50px;
+    margin-top: 10px;
+}
+#main header section.left p{
+    color: white;
+    margin-left: 75px;
+    font-size: 20px;
+    text-transform: uppercase;
+    font-family: "baloopaaji_meduim";
+    margin-top: -20px;
+}
+#main header section.left p.the{
+    color: white;
+    font-family: "baloopaaji_bold";
+    margin-left: 20px;
+    font-size: 20px;
+    text-transform: uppercase;
+    margin-top: 10px;
+    transform: rotate(-20deg);
+}
+#main header section.right{
+
+}
+#main header section.right ul{
+    display: flex;
+    justify-content: space-between;
+}
+#main header section.right ul li{
+    margin-right: 30px;
+    margin-top: 110px;
+}
+#main header section.right ul li a{
+    color: #000;
+    font-family: "baloopaaji_bold";
+    font-size: 20px;
+    padding: 10px 20px;
+    background-color: #fff;
+    border-radius: 20%;
+}
+#main .spotlight .wrapper{
+    display: flex;
+    justify-content: space-between;
+}
+#main .spotlight img{
+    width: 100%;
+    margin-top: 61px;
+    margin-bottom: 61px;
+}
+#middle{
+    text-align: center;
+}
+#middle ul{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+    margin-bottom: 60px;
+}
+#middle ul li.card {
+	width: 48%;
+	text-align: center;
+	padding: 60px;
+	box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.1), 0 4px 4px 0 rgba(0, 0, 0, 0.1);
+    border-radius: 20%;
+}
+#middle div.head h2 {
+	font-size: 60px;
+	font-family: "baloopaaji_extra_bold";
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+#middle ul li.card img{
+	width: 200px;
+    margin-bottom: 10px;
+}
+.raduis{
+    border-radius: 50%;
+}
+#middle ul li.card img.shoe{
+	width: 230px;
+    transform: rotate(-20deg);
+    margin-bottom: 10px;
+}
+#middle ul li.card h3 {
+	text-transform: uppercase;
+	font-size: 50px;
+	margin: 10px 0 15px;
+    font-family: "baloopaaji_extra_bold";
+}
+#middle ul li.card p {
+	color: #A9A9A9;
+	padding-bottom: 15px;
+    font-family: "baloopaaji_meduim";
+}
+#social{
+    text-align: center;
+}
+#social ul{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 150px;
+}
+#social h2{
+    font-family: "baloopaaji_extra_bold";
+    font-size: 60px;
+    margin-top: 140px;
+    margin-bottom: 40px;
+}
+#social ul li img{
+    margin-bottom: 150px;
+    margin-top: 30px;
+}
