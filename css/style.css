@@ -59,7 +59,7 @@ br.clear {
 	line-height: 0;
 }
 .wrapper {
-	width: 90%;
+	width: 100%;
 	margin: 0 auto;
 	max-width:1200px;
 }
@@ -256,43 +256,57 @@ img.igram{
 img.wassup{
     width: 150px;
 }
-img.face1{
-    width: 100px;
+footer {
+
 }
-img.igram1{
-    width: 110px;
+footer section.top{
+	background-color: #2d2d2d;
+	padding: 60px 0;
 }
-img.wassup1{
-    width: 100px;
+footer section.top section.wrapper {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
 }
-footer{
-    background-color: #000;
-    height: 390px;
-    margin-top: 100px;
+footer section.top div.item{
+	width: 30%;
+	text-align: center;
+	font-size: 18px;
 }
-footer .top{
-    display: flex;
-    justify-content: space-between;
-    margin-left: 50px;
+footer section.top div.item a{
+	color: #fff;
+    font-family: "baloopaaji_semi_bold";
 }
-footer .top .left .top{
-    margin-top: 100px;
-    margin-bottom: 50px;
+footer section.top div.item img{
+	width: 32px;
+	display: block;
+	margin: 0 auto;
+	margin-bottom: 20px;
 }
-footer .top .left .bottom{
-    margin-bottom: 50px;
-    margin-left: 50px;
+footer section.top div.item p{
+	color: #fff;
+	font-size: 18px;
+    font-family: "baloopaaji_meduim";
 }
-footer .right .top{
-    margin-right: 100px;
-    margin-top: 90px;
-    margin-bottom: 50px;
+footer section.bottom {
+	background: #000;
+	padding: 20px 0;
+	color: #fff;
 }
-footer .right .bottom{
-    margin-left: 50px;
+footer section.bottom section.wrapper{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
 }
-footer .right .bottom img{
-    margin-right: 20px;
+footer section.bottom p.left{
+    font-family: "baloopaaji_meduim";
+}
+footer section.bottom p.right{
+    font-family: "baloopaaji_meduim";
+}
+footer section.bottom p.right a{
+	color: #fff;
+    font-family: "baloopaaji_meduim";
 }
 @media all and (max-width:1040px){
     #main header section.right{
@@ -304,9 +318,9 @@ footer .right .bottom img{
 }
 @media all and (max-width:950px){
     #middle ul li.card {
-        width: 78%;
+        width: auto;
         margin-bottom: 80px;
-        margin-left: 90px;
+        margin-left: auto;
     }
 }
 @media all and (max-width:880px){
@@ -334,10 +348,30 @@ footer .right .bottom img{
         width: 130px;
     }
     #middle ul li.card {
-        width: 90%;
+        width: auto;
         margin-bottom: 80px;
-        margin-left: 40px;
-        margin-right: 40px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+@media all and (max-width: 640px){
+    footer section.top div.item{
+        width: 100%;
+        margin-bottom: 30px
+    }
+    footer section.top div.item:last-child {
+        margin-bottom: 0;
+    }
+}
+@media all and (max-width:600px){
+    #main header section.left h3{
+        color: white;
+        font-family: "baloopaaji_bold";
+        font-size: 50px;
+        margin-top: 10px;
+    }
+    #main header section.left img{
+        margin-left: -40px;
     }
 }
 @media all and (max-width:560px){
@@ -351,31 +385,111 @@ footer .right .bottom img{
         width: 130px;
     }
     #middle ul li.card {
-        width: 90%;
+        width: auto;
         margin-bottom: 80px;
-        margin-left: 40px;
+        margin-left: auto;
     }
 }
-@media all and (max-width:500px){
+@media all and (max-width:550px){
+    #main header section.left img{
+        margin-left: -70px;
+    }
+    footer section.bottom p{
+		width: 100%;
+		text-align: center;
+		margin-bottom: 10px
+	}
+	footer section.bottom p:last-child{
+		margin-bottom: 0;
+	}
+}
+@media all and (max-width:510px){
     #middle ul li.card {
-        width: 100%;
+        width: auto;
         margin-bottom: 80px;
-        margin-left: 60px;
+        margin-left: auto;
+    }
+    #main header section.left img{
+        width: 150px;
+    }
+    .spotlight .wrapper img{
+        width: 80%;
+    }
+    #middle ul li.card {
+        width: 70%;
+        margin-bottom: 80px;
+        margin-left: auto;
+    }
+    #middle ul li.card h3{
+        font-size: 30px;
+    }
+    #middle ul li.card img{
+        width: 150px;
+    }
+    #middle ul li.card img.shoe{
+        width: 140px;
+    }
+    #middle ul li.card p{
+        font-size: 12px;
+    }
+    #middle div.head h2{
+        font-size: 40px;
+    }
+    #social h2{
+        font-size: 40px;
+        margin-top: 70px;
+    }
+    #social ul li img{
+        margin-bottom: 100px;
+        margin-top: 30px;
+    }
+    #social ul{
+        margin: 0 30px 0 30px;
+    }
+    img.face{
+        width: 100px;
+    }
+    img.igram{
+        width: 110px;
+    }
+    img.wassup{
+        width: 100px;
     }
 }
-@media all and (max-width:450px){
+@media all and (max-width:455px){
     #middle.wrapper{
         width: 100%;
     }
     #middle ul li.card {
-        width: 100%;
+        width: auto;
         margin-bottom: 80px;
-        margin-left: 100px;
+        margin-left: auto;
     }
-    #middle ul li.card {
-        width: 90%;
-        margin-bottom: 80px;
-        margin-left: 80px;
+    img.face{
+        width: 80px;
+    }
+    img.igram{
+        width: 90px;
+    }
+    img.wassup{
+        width: 80px;
+    }
+    #social ul{
+        margin: 0;
+    }
+    #main header section.left img{
+        width: 100px;
+        height: 100px;
+    }
+    #main header section.left p{
+        font-size: 10px;
+    }
+    #main header section.left p.the{
+        width: 50px;
+    }
+    #main header section.left h3{
+        font-size: 40px;
+        margin-top: -20px;
     }
 }
 @media all and (max-width:420px){
