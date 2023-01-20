@@ -175,7 +175,7 @@ br.clear {
     border-radius: 20%;
 }
 #main .spotlight{
-    background-image: linear-gradient(to top, #fff, #AAFF00);
+    background: #f4f5f7;
 }
 #main .spotlight .wrapper{
     display: flex;
@@ -185,6 +185,12 @@ br.clear {
     width: 100%;
     margin-top: 61px;
     margin-bottom: 61px;
+}
+#main .more img.curve{
+    display: block;
+	width: 100%;
+	transform: rotate(-180deg);
+    margin-bottom: 60px;
 }
 #main .more .wrapper{
     display: flex;
