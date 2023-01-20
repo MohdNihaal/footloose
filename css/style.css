@@ -113,7 +113,7 @@ br.clear {
     font-style: normal;
 }
 #main{
-    background-image: linear-gradient(to top, #fff, #AAFF00);
+    
 }
 #main header{
     background: #000;
@@ -174,6 +174,9 @@ br.clear {
     background-color: #fff;
     border-radius: 20%;
 }
+#main .spotlight{
+    background-image: linear-gradient(to top, #fff, #AAFF00);
+}
 #main .spotlight .wrapper{
     display: flex;
     justify-content: space-between;
@@ -182,6 +185,50 @@ br.clear {
     width: 100%;
     margin-top: 61px;
     margin-bottom: 61px;
+}
+#main .more .wrapper{
+    display: flex;
+    justify-content: space-between;
+    width: 85%;
+}
+#main .more div.left ul{
+    display: grid;
+    grid-template-columns: auto auto;
+    row-gap: 30px;
+    column-gap: 30px;
+}
+#main .more div.left ul li{
+    text-align: center;
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.1), 0 4px 4px 0 rgba(0, 0, 0, 0.1);
+    border-radius: 20px;
+    background-color: #fff;
+}
+#main .more div.left ul li a.button{
+    
+}
+#main .more div.left ul li h2{
+    margin-top: 50px;
+    margin-bottom: 10px;
+    font-size: 40px;
+    font-family: "baloopaaji_bold";
+}
+#main .more div.left ul li img{
+    width: 150px;
+    margin: 0 50px 50px;
+}
+#main .more div.right{
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.1), 0 4px 4px 0 rgba(0, 0, 0, 0.1);
+    border-radius: 20px;
+    background-color: #fff;
+    text-align: center;
+}
+#main .more div.right{
+    
+}
+#main .more div.right h2{
+    font-size: 70px;
+    font-family: "baloopaaji_bold";
+    padding-top: 50px;
 }
 #middle{
     text-align: center;
@@ -320,6 +367,19 @@ footer section.bottom p.right a{
 	color: #fff;
     font-family: "baloopaaji_meduim";
 }
+@media all and (max-width:1190px){
+    #main .more section.wrapper{
+        width: 90%;
+    }
+}
+@media all and (max-width:1110px){
+    #main .more section.wrapper{
+        width: 90%;
+    }
+    #main .more div.left ul li img{
+        margin: 0 30px 50px;
+    }
+}
 @media all and (max-width:1040px){
     #main header section.right{
         display: none;
@@ -327,12 +387,18 @@ footer section.bottom p.right a{
     #main header section.left{
         margin-left: 20%;
     }
+    #main .more div.right a img{
+        width: 400px;
+    }
 }
-@media all and (max-width:950px){
+@media all and (max-width:960px){
     #middle ul li.card {
         width: auto;
         margin-bottom: 80px;
         margin-left: auto;
+    }
+    #main .more div.left ul li img{
+        width: 100px;
     }
 }
 @media all and (max-width:880px){
@@ -344,6 +410,30 @@ footer section.bottom p.right a{
     }
     #social ul{
         margin: 0 auto;
+    }
+}
+@media all and (max-width:860px){
+    #main .more div.right a h2{
+        font-size: 50px;
+    }
+    #main .more div.left ul li h2{
+        font-size: 30px;
+    }
+    #main .more div.right a img{
+        width: 350px;
+    }
+}
+@media all and (max-width:815px){
+    #main .more div.right a img{
+        width: 300px;
+    }
+}
+@media all and (max-width:760px){
+    #main .more div.left ul li img{
+        width: 90px;
+    }
+    #main .more div.right a img{
+        width: 250px;
     }
 }
 @media all and (max-width:730px){
@@ -366,6 +456,23 @@ footer section.bottom p.right a{
         margin-right: auto;
     }
 }
+@media all and (max-width:670px){
+    #main .more div.right a h2{
+        font-size: 40px;
+    }
+    #main .more div.left ul li h2{
+        font-size: 30px;
+    }
+    #main .more div.right a img{
+        width: 230px;
+    }
+    #main .more section.wrapper{
+        width: 90%;
+    }
+    #main .more div.right img{
+        margin-top: 50px;
+    }
+}
 @media all and (max-width: 640px){
     footer section.top div.item{
         width: 100%;
@@ -373,6 +480,17 @@ footer section.bottom p.right a{
     }
     footer section.top div.item:last-child {
         margin-bottom: 0;
+    }
+    #main .more div.right a img{
+        width: 210px;
+    }
+}
+@media all and (max-width:620px){
+    #main .more div.left ul li img{
+        width: 80px;
+    }
+    #main .more div.left ul li{
+        font-size: 20px;
     }
 }
 @media all and (max-width:600px){
@@ -384,6 +502,17 @@ footer section.bottom p.right a{
     }
     #main header section.left img{
         margin-left: -40px;
+    }
+    #main .more div.right h2{
+        font-size: 30px;
+    }
+    #main .more div.right img{
+        margin-top: 50px;
+    }
+}
+@media all and (max-width:590px){
+    #main .more div.left ul li img{
+        width: 50px;
     }
 }
 @media all and (max-width:560px){
@@ -415,7 +544,26 @@ footer section.bottom p.right a{
 		margin-bottom: 0;
 	}
 }
+@media all and (max-width:535px){
+    #main .more div.right a img{
+        width: 180px;
+    }
+}
 @media all and (max-width:510px){
+    #main .more div.left ul li h2{
+        font-size: 20px;
+        margin-top: 20px;
+    }
+    #main .more div.left ul li img{
+        margin-bottom: 20px;
+    }
+    #main .more div.right a h2{
+        font-size: 30px;
+    }
+    #main .more div.right a img{
+        margin-top: 0px;
+        width: 130px;
+    }
     #middle ul li.card {
         width: auto;
         margin-bottom: 80px;
@@ -503,10 +651,30 @@ footer section.bottom p.right a{
         font-size: 40px;
         margin-top: -20px;
     }
+    #main .more div.left ul{
+        row-gap: 15px;
+        column-gap: 15px;
+    }
 }
 @media all and (max-width:420px){
     #social h2{
         width: 100%;
+    }
+    #main .more div.right a img{
+        margin-top: 0px;
+        width: 110px;
+    }
+}
+@media all and (max-width:400px){
+    #main .more div.left ul li h2{
+        font-size: 15px;
+    }
+    #main .more div.left ul li img{
+        width: 40px;
+        margin: 0 20px 30px;
+    }
+    #main .more div.right a h2{
+        font-size: 20px;
     }
 }
 @media all and (max-width:350px){
@@ -544,4 +712,10 @@ footer section.bottom p.right a{
         font-size: 36px;
         margin-top: -20px;
     } 
+    #main .more div.right a img{
+        width: 90px;
+    }
+    #main .more div.left ul li img{
+        width: 30px;
+    }
 }
