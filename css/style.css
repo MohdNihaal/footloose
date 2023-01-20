@@ -321,6 +321,13 @@ img.wassup{
     width: 150px;
     margin-right: auto;
 }
+#social img.curve{
+    display: block;
+	width: 100%;
+}
+#show{
+    background: #f4f5f7;;
+}
 footer {
 
 }
