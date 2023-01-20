@@ -227,14 +227,23 @@ br.clear {
 	color: #A9A9A9;
 	padding-bottom: 15px;
     font-family: "baloopaaji_meduim";
+    margin-bottom: 20px;
+}
+#middle ul li.card a.lol{
+    padding: 15px 25px;
+    font-family: "baloopaaji_meduim";
+    background-color: #000;
+    border-radius: 20%;
+    color: #fff;
 }
 #social{
     text-align: center;
+    margin: 0 auto;
 }
 #social ul{
     display: flex;
     justify-content: space-between;
-    margin: 0 150px;
+    margin: 0 auto;
 }
 #social h2{
     font-family: "baloopaaji_extra_bold";
@@ -249,12 +258,15 @@ br.clear {
 }
 img.face{
     width: 150px;
+    margin-left: auto;
 }
 img.igram{
     width: 160px;
+    margin: 0 auto;
 }
 img.wassup{
     width: 150px;
+    margin-right: auto;
 }
 footer {
 
@@ -331,12 +343,12 @@ footer section.bottom p.right a{
         margin-right: 0px;
     }
     #social ul{
-        margin: 0 80px;
+        margin: 0 auto;
     }
 }
 @media all and (max-width:730px){
     #social ul{
-        margin: 0;
+        margin: 0 auto;
     }
     img.face{
         width: 130px;
@@ -444,7 +456,7 @@ footer section.bottom p.right a{
         margin-top: 30px;
     }
     #social ul{
-        margin: 0 30px 0 30px;
+        margin: 0 auto;
     }
     img.face{
         width: 100px;
@@ -475,7 +487,7 @@ footer section.bottom p.right a{
         width: 80px;
     }
     #social ul{
-        margin: 0;
+        margin: 0 auto;
     }
     #main header section.left img{
         width: 100px;
@@ -496,4 +508,40 @@ footer section.bottom p.right a{
     #social h2{
         width: 100%;
     }
+}
+@media all and (max-width:350px){
+    img.face{
+        width: 60px;
+    }
+    img.igram{
+        width: 70px;
+    }
+    img.wassup{
+        width: 60px;
+    }
+}
+@media all and (max-width:330px){
+    img.face{
+        width: 45px;
+    }
+    img.igram{
+        width: 55px;
+    }
+    img.wassup{
+        width: 45px;
+    }
+    #main header section.left img{
+        width: 100px;
+        height: 100px;
+    }
+    #main header section.left p{
+        font-size: 10px;
+    }
+    #main header section.left p.the{
+        width: 46px;
+    }
+    #main header section.left h3{
+        font-size: 36px;
+        margin-top: -20px;
+    } 
 }
