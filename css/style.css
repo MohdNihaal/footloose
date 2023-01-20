@@ -666,15 +666,9 @@ footer section.bottom p.right a{
     }
 }
 @media all and (max-width:400px){
-    #main .more div.left ul li h2{
-        font-size: 15px;
-    }
     #main .more div.left ul li img{
         width: 40px;
         margin: 0 20px 30px;
-    }
-    #main .more div.right a h2{
-        font-size: 20px;
     }
 }
 @media all and (max-width:350px){
