@@ -1,0 +1,317 @@
+* {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	vertical-align: baseline;
+	background: transparent;
+	font-weight: normal;
+	text-decoration: none;
+	outline: none;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+ol, ul {
+	list-style: none;
+}
+del {
+	text-decoration: line-through;
+}
+body {
+	font-family: "GT-Eesti", Arial, Helvetica, sans-serif;
+	font-size: 17px;
+	overflow-x: hidden;
+	min-width: 320px;
+	font-weight: 500;
+}
+input,textarea,select{
+	font-family: "GT-Eesti", Arial, Helvetica, sans-serif;
+	font-weight: 500;
+}
+
+a{
+	color: #253858;
+}
+a:hover,.submit:hover{
+	filter: alpha(opacity = 85);
+	-moz-opacity: 0.85;
+	-khtml-opacity: 0.85;
+	opacity: 0.85;
+}
+.thumb{
+	display: block;
+}
+.thumb img{
+	display: block;
+	width:100%;
+}
+p{
+	line-height:1.6em;
+	font-size: 16px;
+	font-family: "GT-Eesti", Arial;
+	font-weight: 500;
+}
+.hidden{
+	display:none;
+}
+br.clear {
+	clear: both;
+	line-height: 0;
+}
+.wrapper {
+	width: 100%;
+	margin: 0 auto;
+	max-width:1200px;
+}
+@font-face {
+    font-family: "rowdies_bold";
+    src: url("../fonts/Rowdies-Bold.ttf") format("woff");
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: "rowdies_light";
+    src: url("../fonts/Rowdies-Light.ttf") format("woff");
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: "rowdies_regular";
+    src: url("../fonts/Rowdies-Regular.ttf") format("woff");
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: "baloopaaji";
+    src: url("../fonts/baloopaaji2-regular-webfont.woff2") format("woff2"),
+        url("../fonts/baloopaaji2-regular-webfont.woff") format("woff");
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: "baloopaaji_bold";
+    src: url("../fonts/BalooPaaji2-Bold.ttf") format("woff2");
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: "baloopaaji_extra_bold";
+    src: url("../fonts/BalooPaaji2-ExtraBold.ttf") format("woff2");
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: "baloopaaji_semi_bold";
+    src: url("../fonts/BalooPaaji2-SemiBold.ttf") format("woff2");
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: "baloopaaji_meduim";
+    src: url("../fonts/BalooPaaji2-Medium.ttf") format("woff2");
+    font-weight: normal;
+    font-style: normal;
+}
+#main{
+    
+}
+#main header{
+    background: #000;
+}
+#main header section.wrapper{
+    display: flex;
+    justify-content: space-between;
+}
+#main header section.left{
+    padding-top: 20px;
+    display: flex;
+    padding-bottom: 20px;
+}
+#main header section.left img{
+    width: 200px;
+    border-radius: 20%;
+}
+#main header section.left h3{
+    color: white;
+    font-family: "baloopaaji_bold";
+    font-size: 50px;
+    margin-left: 50px;
+    margin-top: 10px;
+}
+#main header section.left p{
+    color: white;
+    margin-left: 75px;
+    font-size: 20px;
+    text-transform: uppercase;
+    font-family: "baloopaaji_meduim";
+    margin-top: -20px;
+}
+#main header section.left p.the{
+    color: white;
+    font-family: "baloopaaji_bold";
+    margin-left: 20px;
+    font-size: 20px;
+    text-transform: uppercase;
+    margin-top: 10px;
+    transform: rotate(-20deg);
+}
+#main header section.right{
+
+}
+#main header section.right ul{
+    display: flex;
+    justify-content: space-between;
+}
+#main header section.right ul li{
+    margin-right: 30px;
+    margin-top: 110px;
+}
+#main header section.right ul li a{
+    color: #000;
+    font-family: "baloopaaji_bold";
+    font-size: 20px;
+    padding: 10px 20px;
+    background-color: #fff;
+    border-radius: 20%;
+}
+footer {
+
+}
+footer section.top{
+	background-color: #2d2d2d;
+	padding: 60px 0;
+}
+footer section.top section.wrapper {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+footer section.top div.item{
+	width: 30%;
+	text-align: center;
+	font-size: 18px;
+}
+footer section.top div.item a{
+	color: #fff;
+    font-family: "baloopaaji_semi_bold";
+}
+footer section.top div.item img{
+	width: 32px;
+	display: block;
+	margin: 0 auto;
+	margin-bottom: 20px;
+}
+footer section.top div.item p{
+	color: #fff;
+	font-size: 18px;
+    font-family: "baloopaaji_meduim";
+}
+footer section.bottom {
+	background: #000;
+	padding: 20px 0;
+	color: #fff;
+}
+footer section.bottom section.wrapper{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+footer section.bottom p.left{
+    font-family: "baloopaaji_meduim";
+}
+footer section.bottom p.right{
+    font-family: "baloopaaji_meduim";
+}
+footer section.bottom p.right a{
+	color: #fff;
+    font-family: "baloopaaji_meduim";
+}
+@media all and (max-width:1040px){
+    #main header section.wrapper{
+        display: block;
+    }
+    #main header section.right{
+        margin-left: 40%;
+        margin-top: -90px;
+        padding-bottom: 40px;
+    }
+    #main header section.left{
+        margin-left: 20%;
+    }
+}
+@media all and (max-width: 640px){
+    footer section.top div.item{
+        width: 100%;
+        margin-bottom: 30px
+    }
+    footer section.top div.item:last-child {
+        margin-bottom: 0;
+    }
+    #main .more div.right a img{
+        width: 210px;
+    }
+    #main header section.left img{
+        margin-left: -30px;
+    }
+}
+@media all and (max-width:600px){
+    #main header section.left h3{
+        color: white;
+        font-family: "baloopaaji_bold";
+        font-size: 50px;
+        margin-top: 10px;
+    }
+}
+@media all and (max-width:550px){
+    #main header section.left img{
+        margin-left: -70px;
+    }
+    footer section.bottom p{
+		width: 100%;
+		text-align: center;
+		margin-bottom: 10px
+	}
+	footer section.bottom p:last-child{
+		margin-bottom: 0;
+	}
+}
+@media all and (max-width:510px){
+    #main header section.left img{
+        width: 150px;
+    }
+}
+@media all and (max-width:455px){
+    #main header section.left img{
+        width: 100px;
+        height: 100px;
+    }
+    #main header section.left p{
+        font-size: 10px;
+    }
+    #main header section.left p.the{
+        width: 50px;
+    }
+    #main header section.left h3{
+        font-size: 40px;
+        margin-top: -20px;
+    }
+    #main header section.right ul li a{
+        font-size: 15px;
+        padding: 7px 15px;
+    }
+}
+@media all and (max-width:330px){
+    #main header section.left img{
+        width: 100px;
+        height: 100px;
+    }
+    #main header section.left p{
+        font-size: 10px;
+    }
+    #main header section.left p.the{
+        width: 46px;
+    }
+    #main header section.left h3{
+        font-size: 35px;
+    }
+}
