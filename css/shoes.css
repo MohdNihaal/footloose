@@ -178,8 +178,9 @@ br.clear {
     margin: 100px auto;
 }
 #view section.wrapper{
-    display: flex;
-    justify-content: space-between;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-column-gap: 20px;
     width: 70%;
 }
 #view div.card{
@@ -196,6 +197,7 @@ br.clear {
 #view div.card img{
     width: 200px;
     border-radius: 20px;
+    height: 200px;
 }
 footer {
 
@@ -251,8 +253,6 @@ footer section.bottom p.right a{
 }
 @media all and (max-width:1180px){
     #view section.wrapper{
-        display: flex;
-        justify-content: space-between;
         width: 90%;
     }
 }
@@ -274,13 +274,12 @@ footer section.bottom p.right a{
         width: 98%;
     }
 }
-@media all and (max-width:815px){
-    #view div.card img{
-        width: 150px;
-        border-radius: 20px;
-    }
-    #view div.card h3{
-        font-size: 15px;
+@media all and (max-width:830px){
+    #view section.wrapper{
+        display: grid;
+        grid-template-columns: auto auto;
+        grid-column-gap: 20px;
+        width: 90%;
     }
 }
 @media all and (max-width:670px){
@@ -313,13 +312,6 @@ footer section.bottom p.right a{
         font-size: 50px;
         margin-top: 10px;
     }
-    #view div.card img{
-        width: 120px;
-        border-radius: 20px;
-    }
-    #view div.card h3{
-        font-size: 12px;
-    }
 }
 @media all and (max-width:550px){
     #main header section.left img{
@@ -339,8 +331,12 @@ footer section.bottom p.right a{
         width: 150px;
     }
     #view div.card img{
-        width: 100px;
+        width: 150px;
         border-radius: 20px;
+        height: 150px;
+    }
+    #view div.card h3{
+        font-size: 16px;
     }
 }
 @media all and (max-width:455px){
@@ -371,11 +367,16 @@ footer section.bottom p.right a{
 }
 @media all and (max-width:405px){
     #view div.card img{
-        width: 80px;
+        width: 130px;
         border-radius: 20px;
+        height: 130px;
     }
-    #view div.card h3{
-        font-size: 8px;
+}
+@media all and (max-width:360px){
+    #view div.card img{
+        width: 100px;
+        border-radius: 20px;
+        height: 100px;
     }
 }
 @media all and (max-width:345px){
