@@ -187,6 +187,11 @@ br.clear {
     margin-bottom: 30px;
     padding: 30px;
     border-radius: 20px;
+    text-align: center;
+}
+#view div.card h3{
+    font-family: "baloopaaji_bold";
+    margin-top: 5px;
 }
 #view div.card img{
     width: 200px;
@@ -274,6 +279,9 @@ footer section.bottom p.right a{
         width: 150px;
         border-radius: 20px;
     }
+    #view div.card h3{
+        font-size: 15px;
+    }
 }
 @media all and (max-width:670px){
     #view div.card{
@@ -308,6 +316,9 @@ footer section.bottom p.right a{
     #view div.card img{
         width: 120px;
         border-radius: 20px;
+    }
+    #view div.card h3{
+        font-size: 12px;
     }
 }
 @media all and (max-width:550px){
@@ -362,6 +373,9 @@ footer section.bottom p.right a{
     #view div.card img{
         width: 80px;
         border-radius: 20px;
+    }
+    #view div.card h3{
+        font-size: 8px;
     }
 }
 @media all and (max-width:345px){
