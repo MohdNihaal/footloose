@@ -417,6 +417,12 @@ footer section.bottom p.right a{
         margin-bottom: 80px;
         margin-left: auto;
     }
+    #main .more div.left ul li div{
+        height: 340px;
+        box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.1), 0 4px 4px 0 rgba(0, 0, 0, 0.1);
+        border-radius: 20px;
+        padding-top: 10px;
+    }
     #main .more div.left ul li img{
         width: 100px;
     }
@@ -441,6 +447,12 @@ footer section.bottom p.right a{
     }
     #main .more div.right a img{
         width: 350px;
+    }
+    #main .more div.left ul li div{
+        height: 300px;
+        box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.1), 0 4px 4px 0 rgba(0, 0, 0, 0.1);
+        border-radius: 20px;
+        padding-top: 10px;
     }
 }
 @media all and (max-width:815px){
@@ -504,6 +516,12 @@ footer section.bottom p.right a{
     #main .more div.right a img{
         width: 210px;
     }
+    #main .more div.left ul li div{
+        height: 270px;
+        box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.1), 0 4px 4px 0 rgba(0, 0, 0, 0.1);
+        border-radius: 20px;
+        padding-top: 8px;
+    }
 }
 @media all and (max-width:620px){
     #main .more div.left ul li img{
@@ -533,6 +551,12 @@ footer section.bottom p.right a{
 @media all and (max-width:590px){
     #main .more div.left ul li img{
         width: 50px;
+    }
+    #main .more div.left ul li div{
+        height: 230px;
+        box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.1), 0 4px 4px 0 rgba(0, 0, 0, 0.1);
+        border-radius: 20px;
+        padding-top: 5px;
     }
 }
 @media all and (max-width:560px){
@@ -634,6 +658,12 @@ footer section.bottom p.right a{
     }
     img.wassup{
         width: 100px;
+    }
+    #main .more div.left ul li div{
+        height: 160px;
+        box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.1), 0 4px 4px 0 rgba(0, 0, 0, 0.1);
+        border-radius: 20px;
+        padding-top: 10px;
     }
 }
 @media all and (max-width:455px){
