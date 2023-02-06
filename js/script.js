@@ -1,3 +1,6 @@
+
+
+
 $(document).ready(function(){
     $("#main section.spotlight section.wrapper").slick({
         autoplay:true,
